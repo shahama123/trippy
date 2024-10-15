@@ -4,7 +4,7 @@ import "./AboutUs.css";
 const AboutUs = () => {
   return (
     <div className="about-container">
-      <h1>Our History</h1>
+      <h1 className="text-lg font-bold">Our History</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
         inventore nemo ab voluptatibus ullam nihil facere temporibus, quasi,
@@ -18,7 +18,7 @@ const AboutUs = () => {
         impedit dolor aut expedita id molestiae.
       </p>
 
-      <h1>Our Mission</h1>
+      <h1 className="text-lg font-bold">Our Mission</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
         consequuntur facilis expedita fugit quis culpa maiores sapiente illum
@@ -26,7 +26,7 @@ const AboutUs = () => {
         sequi laudantium.
       </p>
 
-      <h1>Our Vision</h1>
+      <h1 className="text-lg font-bold">Our Vision</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
         inventore nemo ab voluptatibus ullam nihil facere temporibus, quasi,

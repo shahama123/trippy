@@ -6,7 +6,7 @@
 
 .hero-mid {
   width: 100%;
-  height: 70vh;
+  /* height: 50vh; */
   position: relative;
 }
 .hero-mid h1 {
@@ -35,10 +35,11 @@ img {
 }
 
 .hero-text p {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   padding: 0.5rem 0 2 rem 0;
   color: white;
   text-align: center;
+  padding-top: 2rem;
 }
 
 .hero-text .show {
@@ -59,4 +60,5 @@ img {
 .button-container {
   display: flex;
   justify-content: center;
+  padding-top: 3rem;
 }

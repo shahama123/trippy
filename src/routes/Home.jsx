@@ -4,7 +4,9 @@ import Hero from "../components/Hero";
 import Destinaton from "../components/Destination";
 import Trip from "../components/Trip";
 import Footer from "../components/Footer";
+import { useNavigate } from "react-router-dom";
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -20,6 +22,14 @@ const Home = () => {
       <Destinaton />
 
       <Trip />
+      <div className="flex justify-center items-center pb-10">
+        <button
+          className="bg-black border rounded-md text-white font-bold px-8 text-lg py-2"
+          onClick={() => navigate("/service")}
+        >
+          View More
+        </button>
+      </div>
 
       <Footer />
     </>

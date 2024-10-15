@@ -8,7 +8,7 @@ const TripData = (props) => {
       <div className="t-image">
         <img alt="image" src={props.image} />
       </div>
-      <h4>{props.heading}</h4>
+      <h4 className="text-center">{props.heading}</h4>
       <p>{props.text} </p>
     </div>
   );
